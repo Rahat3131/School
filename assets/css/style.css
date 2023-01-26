@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background: #F0FFF0;
+  clear: both;
+}
+.navbar-brand {
+  width: 60%;
+  margin: 5px -50px 0 10px;
+}
+.navbar-nav {
+  font-weight: 700;
+  color: black;
+}
+.sign {
+  background-color: #21B573;
+  margin-left: 10px;
+  border-radius: 30px;
+}
