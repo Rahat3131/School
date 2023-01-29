@@ -1,18 +1,31 @@
+@font-face {
+  font-family:Inter-Regular ;
+  src: url(../fonts/Inter-Regular.ttf);
+}
 body {
   margin: 0;
   background: #F0FFF0;
+  font-family:Inter-Regular
   clear: both;
 }
+
 .navbar-brand {
   width: 60%;
-  margin: 5px -50px 0 10px;
+  margin: 5px -50px 0 0;
 }
+
 .navbar-nav {
   font-weight: 700;
   color: black;
 }
+
 .sign {
+  color: white;
   background-color: #21B573;
-  margin-left: 10px;
+  margin-left: 20px;
   border-radius: 30px;
+  padding:10px 25px !important;
+}
+.ready{
+  color: #FD511A;
 }
