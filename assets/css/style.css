@@ -21,7 +21,6 @@ body {
   font-weight: 700;
   color: black;
   text-align: center;
-  
 }
 .navbar-nav .nav-item {
   margin-right: 20px;
@@ -52,6 +51,26 @@ body {
   background-color: #21B573;
   color: #F0FFF0;
 }
-.mid-banner img{
-  width: 200px;
+.mid-banner img {
+  width: 40%;
+}
+.mid-banner .col-3 {
+  background: #eefcf4;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin-right: 3%;
+  transition: width 1s;
+  position: absolute;
+}
+small {
+  font-size: 15px;
+  color: gray;
+}
+.mid-banner .col-3:hover {
+  width: 280px;
+  background-color: #eefcf4;
+  
 }
