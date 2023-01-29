@@ -1,12 +1,15 @@
 @font-face {
-  font-family:Inter-Regular ;
+  font-family:"Inter-Regular" ;
   src: url(../fonts/Inter-Regular.ttf);
 }
 body {
   margin: 0;
-  background: #F0FFF0;
-  font-family:Inter-Regular
+  font-family:"Inter-Regular";
   clear: both;
+}
+.top{
+  background: #F0FFF0;
+  padding-bottom: 50px;
 }
 
 .navbar-brand {
@@ -17,15 +20,38 @@ body {
 .navbar-nav {
   font-weight: 700;
   color: black;
+  text-align: center;
+  
+}
+.navbar-nav .nav-item {
+  margin-right: 20px;
 }
 
 .sign {
   color: white;
   background-color: #21B573;
-  margin-left: 20px;
+  width: 110px;
   border-radius: 30px;
-  padding:10px 25px !important;
+  margin: auto;
+  font-weight: 400;
 }
 .ready{
   color: #FD511A;
+}
+.top-head{
+  font-size: 60px;
+  font-weight: 900;
+}
+.color {
+  color: #23B674;
+}
+.started{
+  padding:10px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #21B573;
+  color: #F0FFF0;
+}
+.mid-banner img{
+  width: 200px;
 }
