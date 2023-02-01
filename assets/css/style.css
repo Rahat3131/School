@@ -59,10 +59,10 @@ body {
   width: 40%;
   margin-top: 2%;
 }
-.mid-banner .mid-info {
+.mid-info {
   background: #eefcf4;
   text-align: center;
-  transition: all 1s;
+  transition: all 2s;
   border-radius: 15px;
   width: 250px;
   height: 250px;
@@ -81,8 +81,8 @@ small {
   text-align: center;
   font-weight: 800;
 }
-.course img{
- padding: 10px 10px;
+.card{
+  padding: 10px 10px;
 }
 .course .card-b{
   text-decoration: none;
