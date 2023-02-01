@@ -14,7 +14,7 @@ body {
 }
 
 .navbar-brand {
-  width: 80%;
+  width: 70%;
   margin: 5px 0px 0 0;
 }
 .navbar-brand img {
@@ -55,6 +55,9 @@ body {
   background-color: #21B573;
   color: #F0FFF0;
 }
+.mid-banner{
+  
+}
 .mid-banner img {
   width: 40%;
   margin-top: 2%;
@@ -64,10 +67,8 @@ body {
   text-align: center;
   transition: all 2s;
   border-radius: 15px;
-  width: 250px;
-  height: 250px;
-  margin-bottom: 5%;
-  padding-top: 5%;
+  margin: 3%;
+  padding: 5%;
 }
 .mid-banner .mid-info:hover {
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
@@ -99,5 +100,8 @@ small {
   font-size: 20px;
 }
 .date .fa-user-group{
-  margin-left: 35px;
+  margin-left: 25px;
+}
+.date span{
+  font-size: 15px;
 }
