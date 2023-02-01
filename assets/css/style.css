@@ -14,8 +14,11 @@ body {
 }
 
 .navbar-brand {
-  width: 60%;
-  margin: 5px -50px 0 0;
+  width: 80%;
+  margin: 5px 0px 0 0;
+}
+.navbar-brand img {
+  width: 40%;
 }
 
 .navbar-nav {
@@ -54,22 +57,47 @@ body {
 }
 .mid-banner img {
   width: 40%;
+  margin-top: 2%;
 }
-.mid-banner .col-3 {
+.mid-banner .mid-info {
   background: #eefcf4;
   text-align: center;
-  padding-top: 50px;
-  border-radius: 10px;
+  transition: all 1s;
+  border-radius: 15px;
   width: 250px;
   height: 250px;
-  margin-right: 3%;
-  transition: all 2s;
+  margin-bottom: 5%;
+  padding-top: 5%;
 }
-.mid-banner .col-3:hover {
+.mid-banner .mid-info:hover {
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 small {
   font-size: 15px;
   color: gray;
+}
+.course h1 {
+  text-align: center;
+  font-weight: 800;
+}
+.course img{
+ padding: 10px 10px;
+}
+.course .card-b{
+  text-decoration: none;
+  background: rgba(33, 181, 115, 1);
+  padding: 8px 28px;
+  border-radius: 33px;
+  color: white;
+}
+.course p {
+  font-size: small;
+}
+.date i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.date .fa-user-group{
+  margin-left: 35px;
 }
