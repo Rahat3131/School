@@ -107,14 +107,16 @@ small {
 .Testimonial img{
   width: 120px;
   height: 129px;
-  display: inline;
 }
 footer{
   color: white;
-  background: rgba(28, 26, 26, 1);
+  background: rgba(28, 26, 26, 0.8);
   padding: 50px 0 0 10px ;
 }
 footer .row p {
   font-weight: 200;
   font-size: 16px;
+}
+footer .finfo {
+  width: 150px;
 }
